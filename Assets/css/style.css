@@ -1,0 +1,75 @@
+
+
+body{
+    color: white;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: linear-gradient(rgba(29 ,29 ,29, 0.8), rgba(29 ,29 ,29, 0.8)) ,url(./../images/poneis-malditos-background.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+}
+
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    flex-direction:row; 
+     
+    
+}
+
+.container {
+
+	width: 300px;
+	height: 350px;
+	border-radius: 20px;
+	
+	backdrop-filter: blur(8px);
+	
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.input input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    margin-top: 10px;
+
+    background-color: #ecd5e3;
+    color: #b6b6b6;
+}
+
+input::placeholder{
+    color: #b6b6b6;
+}
+
+.fazerCadastro a{
+    color: pink;
+}
+
+
+
+button{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #cbaacb;
+    color: white;
+}
+
+
