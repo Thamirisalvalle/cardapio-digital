@@ -3,8 +3,9 @@
 body{
     color: white;
     
+    
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -28,8 +29,8 @@ body{
 
 .container {
 
-	width: 300px;
-	height: 350px;
+	width: 350px;
+	height: 600px;
 	border-radius: 20px;
 	
 	backdrop-filter: blur(8px);
@@ -38,6 +39,14 @@ body{
 
 h1{
     text-transform: uppercase;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 1px;
 }
 
 .input input{
@@ -46,7 +55,7 @@ h1{
     width: 250px;
     height: 40px;
     padding-left: 15px;
-    margin-top: 10px;
+    margin-top: 5px;
 
     background-color: #ecd5e3;
     color: #b6b6b6;
@@ -70,6 +79,29 @@ button{
     border: none;
     background-color: #cbaacb;
     color: white;
+    
+}
+
+footer{
+    
+    
+    position:absolute;
+    bottom: 0;
+    
+
+    display: flex;    
+    align-items: center; 
+}
+
+.sociais {
+    display: flex; 
+    gap: 1.25rem; 
+    
+}
+
+.btn {
+    
+    color: #fff;
 }
 
 
