@@ -43,8 +43,13 @@ h1{
 
 h2{
     text-transform: uppercase;
+
     margin-top: 15px;
     margin-bottom: 2px;
+
+    margin-top: 5px;
+    margin-bottom: 1px;
+
 }
 
 .input input{
@@ -80,9 +85,14 @@ input::placeholder{
     
 }
 
+
 #rodape {
     
     padding: 5px;
+}
+
+footer{
+    
     position:absolute;
     bottom: 0;
     
