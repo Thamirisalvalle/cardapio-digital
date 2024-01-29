@@ -1,6 +1,4 @@
-
-
-body{
+.pagina{
     color: white;
     
     
@@ -71,7 +69,7 @@ input::placeholder{
 
 
 
-button{
+#botao{
     cursor: pointer;
     width: 120px;
     height: 40px;
@@ -82,7 +80,7 @@ button{
     
 }
 
-footer{
+#rodape {
     
     padding: 5px;
     position:absolute;
@@ -93,13 +91,13 @@ footer{
     align-items: center; 
 }
 
-.sociais {
+#sociais {
     display: flex; 
     gap: 1.25rem; 
     
 }
 
-.btn {
+#btn {
     
     color: #fff;
 }
