@@ -1,4 +1,4 @@
-.pagina{
+body{
     color: white;
     
     
@@ -101,13 +101,13 @@ footer{
     align-items: center; 
 }
 
-#sociais {
+.sociais {
     display: flex; 
     gap: 1.25rem; 
     
 }
 
-#btn {
+.btn {
     
     color: #fff;
 }
